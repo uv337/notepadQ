@@ -7,3 +7,6 @@ Text Editor programing  sample source cod  on c++ bulid ( gcc 64bit, cmake or QT
 README.md  by notepadQ 0.1 nightly (build unbuntu20LTS,QT creator) 20210926
 
 README.md는 우분투20LTS에서 QT로 빌드된 노트패드큐 나이틀리 버전으로 작성되었습니다.
+
+
+* GNU GPL or Apache License
