@@ -13,3 +13,20 @@ README.md는 우분투20LTS에서 QT()로 빌드된 노트패드큐 나이틀리
 $ cmake  ./
 
 $ make
+
+<table>
+ <tr>
+  <td> javascript version </br>
+ test page
+    </td>
+      <td>   https://uv337.github.io/
+        </td>
+  </tr>
+   <tr>
+     <td>   	ÇÏÃµ
+       </td>
+         <td> 하천
+ </td>            
+    </tr>
+ </table>
+ 
