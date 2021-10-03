@@ -14,19 +14,15 @@ $ cmake  ./
 
 $ make
 
-<table>
- <tr>
-  <td> javascript version </br>
- test page
-    </td>
-      <td>   https://uv337.github.io/
-        </td>
-  </tr>
+
+<hr>
+ javascript version  test page :   https://uv337.github.io/
+<table>   
    <tr>
      <td>   	ÇÏÃµ
        </td>
          <td> 하천
- </td>            
+         </td>            
     </tr>
  </table>
  
