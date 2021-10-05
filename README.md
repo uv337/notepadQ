@@ -10,10 +10,10 @@ README.md는 우분투20LTS에서 QT()로 빌드된 노트패드큐 나이틀리
 
 <table>
  <tr><td>version</td>
-<td>function</td> <td>main</td> </tr>
+<td>function</td> <td>where is it ?</td> </tr>
    <tr><td>0.1</td>
 <td>only QT c++  text editor frame </td> 
-    </tr>
+  <td>main</td>  </tr>
  <tr><td>0.2</td>
 <td>Hangul decoder engine</td> 
     <td>master</td></tr>
