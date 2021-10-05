@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Notepad</class>
- <widget class="QMainWindow" name="Notepad">
+ <class>notepadq</class>
+ <widget class="QMainWindow" name="notepadq">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,14 +11,19 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Notepad</string>
+   <string>notepadq</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <widget class="QTextEdit" name="textEdit"/>
-    </item>
-   </layout>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>-11</y>
+      <width>771</width>
+      <height>561</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -47,9 +52,11 @@
     <addaction name="actionCopy"/>
     <addaction name="actionCut"/>
     <addaction name="actionPaste"/>
+    <addaction name="separator"/>
     <addaction name="actionUndo"/>
     <addaction name="actionRedo"/>
-    <addaction name="actionFont_2"/>
+    <addaction name="separator"/>
+    <addaction name="actionFont"/>
    </widget>
    <widget class="QMenu" name="menuHelp">
     <property name="title">
@@ -57,8 +64,16 @@
     </property>
     <addaction name="actionAbout_Nightly"/>
    </widget>
+   <widget class="QMenu" name="menuTool">
+    <property name="title">
+     <string>Tool</string>
+    </property>
+    <addaction name="actionUnicode"/>
+    <addaction name="actionFind"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuEdit"/>
+   <addaction name="menuTool"/>
    <addaction name="menuHelp"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -117,14 +132,24 @@
     <string>Redo</string>
    </property>
   </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
   <action name="actionAbout_Nightly">
    <property name="text">
     <string>About Nightly</string>
    </property>
   </action>
-  <action name="actionFont_2">
+  <action name="actionUnicode">
    <property name="text">
-    <string>Font</string>
+    <string>Characters Agent Decoder</string>
+   </property>
+  </action>
+  <action name="actionFind">
+   <property name="text">
+    <string>Find</string>
    </property>
   </action>
  </widget>
