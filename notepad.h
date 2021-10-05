@@ -1,19 +1,24 @@
-#ifndef NOTEPAD_H
-#define NOTEPAD_H
+#ifndef NOTEPADQ_H
+#define NOTEPADQ_H
 
 #include <QMainWindow>
+#include<QDialog>
+#include"dialog.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class Notepad; }
+namespace Ui { class notepadq; }
 QT_END_NAMESPACE
 
-class Notepad : public QMainWindow
+class notepadq : public QMainWindow
 {
     Q_OBJECT
 
 public:
-     Notepad(QWidget *parent = nullptr);
-    ~Notepad();
+    explicit notepadq(QWidget *parent = 0);
+    ~notepadq();
+public slots:
+      void mReceive(QString sData);
+
 private slots:
     void newDocument();
 
@@ -40,9 +45,22 @@ private slots:
     void selectFont();
 
     void about();
+    void decoder();
+   /*  void charCount(); */
+    //void  find_and_replace();
+     void find();
+     void mSend(QString);
+     void on_findButton_clicked(QString);
+
+  signals:
+     void mdSend(QString data);
 
 private:
-    Ui::Notepad *ui;
-    QString currentFile;
+    Ui::notepadq *ui;
+     QString currentFile;
+    QDialog *dialog1;
+
+
 };
-#endif // NOTEPAD_H
+
+#endif // NOTEPADQ_H
