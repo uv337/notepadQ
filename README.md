@@ -23,10 +23,17 @@ README.md는 우분투20LTS에서 QT로 빌드된 노트패드큐 나이틀리 �
  </table>
 
 [build]
+<table>
+ <tr><td>build</td><td>spec</td><td>or</td>
+   </tr>
+ <tr><td>cmake</td><td>$ cmake  ./ <br>
+$ make</td><td></td>
+  <tr><td> qmake or QT </td><td>$qmake -r notepadq.pro <br>
+$make</td><td>QT crearter</td>
+   </tr>
+   </tr>
+ </table>
 
-$ cmake  ./
-
-$ make
 
 
 <hr>
