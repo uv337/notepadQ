@@ -47,3 +47,7 @@ $make</td><td>QT crearter</td>
     </tr>
  </table>
  
+ 
+ <hr>
+ [Histroy]
+ 2021.10.6-  QT Creator  build is ok., cmake is no., qmake is yes, but not yet ,this has a fatal error 1. <br>
