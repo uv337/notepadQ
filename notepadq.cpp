@@ -17631,7 +17631,7 @@ QString  conv_text2;  // line stringset
    const QString n0s= QString::number(n0);
 statusBar()->showMessage(n0s);
    QString conv_char0;
-   QTextDocument *doc = ui->textEdit->document();
+  // QTextDocument *doc = ui->textEdit->document();
    int ln = ui->textEdit->document()->blockCount();  // count lines(blocks)
 
   // for (int l=0;l <n0;l++){   //for(1)
