@@ -52,7 +52,13 @@ $ make -j2</td><td>QT crearter</td>
  <hr>
  [Histroy]
  2021.10.6-  QT Creator  build is ok., cmake is no., qmake is yes, but not yet ,this has a fatal error 1. <br>
- 2021.10.7 - issue#2 fixed 
- > qmake notepadQ.pro -spec linux-g++ CONFIG+=debug
- > make -j2
+ 2021.10.7 - issue#2 fixed <br>
+ > qmake notepadQ.pro -spec linux-g++ CONFIG+=debug<br>
+ > make -j2<br>
+ 2021.10.7[No. 2] - issue#2 option <br>
+ > makdir ./release [build directiory] <br>
+ > cd ./release [build directiory] <br>
+ > qmake ../notepadQ.pro -spec linux-g++ CONFIG+=debug <br>
+ > make -j2<br>
+ 
  
