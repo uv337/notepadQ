@@ -28,8 +28,9 @@ README.md는 우분투20LTS에서 QT로 빌드된 노트패드큐 나이틀리 �
    </tr>
  <tr><td>cmake</td><td>$ cmake  ./ <br>
 $ make</td><td></td>
-  <tr><td> qmake or QT </td><td>$qmake -r notepadq.pro <br>
-$make</td><td>QT crearter</td>
+  <tr><td> qmake or QT </td><td>$ qmake notepadQ.pro -spec linux-g++ CONFIG+=debug
+ <br>
+$ make -j2</td><td>QT crearter</td>
    </tr>
    </tr>
  </table>
@@ -51,3 +52,7 @@ $make</td><td>QT crearter</td>
  <hr>
  [Histroy]
  2021.10.6-  QT Creator  build is ok., cmake is no., qmake is yes, but not yet ,this has a fatal error 1. <br>
+ 2021.10.7 - issue#2 fixed 
+ > qmake notepadQ.pro -spec linux-g++ CONFIG+=debug
+ > make -j2
+ 
