@@ -55,9 +55,9 @@ $ make -j2</td><td>QT crearter</td>
  2021.10.7 - issue#2 fixed <br>
  > qmake notepadQ.pro -spec linux-g++ CONFIG+=debug<br>
  > make -j2<br>
- 2021.10.7[No. 2] - issue#2 option <br>
- > makdir ./release [build directiory] <br>
- > cd ./release [build directiory] <br>
+ 2021.10.7[No. 2] - issue#3  <br>
+ > makdir ./release1 [build directiory] <br>
+ > cd ./release1 [build directiory] <br>
  > qmake ../notepadQ.pro -spec linux-g++ CONFIG+=debug <br>
  > make -j2<br>
  
